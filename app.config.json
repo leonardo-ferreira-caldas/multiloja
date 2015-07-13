@@ -1,0 +1,14 @@
+{
+	"app_path"		: "application",
+	"base_path"		: "",
+	"base_url"		: "http://multilojas.dev/",
+	"autoload_paths": ["controllers", "models", "core", "models"],
+	"default_controller": "Home",
+	"database": {
+		"host": "localhost",
+		"port": 3306,
+		"db_name" : "myboletos",
+		"user": "root",
+		"password": "root"
+	}
+}

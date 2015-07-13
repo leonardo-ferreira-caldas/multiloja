@@ -1,0 +1,62 @@
+<div id="main-slider">
+	<div id='wrapper-slider' class='wrapper-width container'>
+		<div id='slider-container'>
+			<ul id="slider">
+				<li><a href=''><img src='<?php echo APP_PATH; ?>/assets/img/slide/layer2.png' /></a></li>
+				<li><a href=''><img src='<?php echo APP_PATH; ?>/assets/img/slide/layer4.png' /></a></li>
+				<li><a href=''><img src='<?php echo APP_PATH; ?>/assets/img/slide/slide02.jpg' /></a></li>
+				<li><a href=''><img src='<?php echo APP_PATH; ?>/assets/img/slide/slide03.jpg' /></a></li>
+			</ul>
+			<img id='slider_next' src='<?php echo APP_PATH; ?>/assets/img/slide/next.png' />
+			<img id='slider_prev' src='<?php echo APP_PATH; ?>/assets/img/slide/prev.png' />
+		</div>
+	</div>
+</div>
+
+<div id="homepage-bar">
+    <div class="wrapper-width container">
+    	<div id="homepage-wrapper">
+	        <div class="col-md-4">
+	        	<img src='<?php echo APP_PATH; ?>/assets/img/homebar_shipping.png' />
+	            <div class="text-area">
+	            	<h3>FRETE GRÁTIS</h3>
+	            	<p>Frete grátis para compras acima de R$ 100,00</p>
+	            </div>
+	        </div>
+	        <div class="col-md-4">
+				<img src='<?php echo APP_PATH; ?>/assets/img/homebar_money.png' />
+				<div class="text-area">
+					<h3>DEVOLUÇÃO DE DINHEIRO GARANTIDO</h3>
+					<p>Garantimos seu dinheiro de volta</p>
+				</div>
+	        </div>
+	        <div class="col-md-4">
+	            <img src='<?php echo APP_PATH; ?>/assets/img/homebar_support.png' />
+	            <div class="text-area">
+		            <h3>SUPORTE ONLINE 24/7</h3>
+		            <p>Entre em contato a qualquer momento pelo site</p>
+	            </div>
+	        </div>
+	        
+	        <br clear='all' />
+        </div>
+    </div>
+</div>
+
+<div id="home-products" class="products wrapper-width container">
+	<?php for ($a = 1; $a < 16; $a++): ?>
+	<div class='product-item <?php echo $a == 1 || $a == 6 || $a == 11 ? 'no-margin-left' : ''; ?>'>
+		<div class='product-item-img'>
+			<div class='product-item-img-wrapper'>
+				<img width='204' src='http://newsmartwave.net/magento/porto/media/catalog/product/cache/7/small_image/250x/17f82f742ffe127f42dca9de82fb58b1/2/6/26_3_5.jpg' />
+			</div>
+		</div>
+		<div class='product-name'>
+			Smartphone Samsung Galaxy S6 Octa-Core, Preto
+		</div>
+		<div class='product-price'>
+			R$2.249,10
+		</div>
+	</div>
+	<?php endfor; ?>
+</div>
